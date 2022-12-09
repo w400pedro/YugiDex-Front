@@ -1,0 +1,57 @@
+body{
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+
+.Cartas {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Cartas div {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Cartas p{
+    color: blue;
+    font-size: 16px;
+}

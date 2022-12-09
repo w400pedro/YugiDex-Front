@@ -13,6 +13,11 @@ body{
     /* height: 600px; */
 }
 
+.h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .form-body{
     text-align: left;
     padding: 20px 10px;
@@ -26,10 +31,24 @@ body{
     width: 40%;
 }
 
-.form_input{
+.form__input{
     width: 60%;
+    padding: 10px;
+    margin: auto;
 }
 
 .footer{
     text-align: center;
+}
+
+.username, .password, .email {
+    display: flex;
+} 
+
+.btn {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 260px;
+    border-radius: 20px;
 }

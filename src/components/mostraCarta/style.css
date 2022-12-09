@@ -32,3 +32,26 @@ body{
 .footer{
     text-align: center;
 }
+
+.Cartas {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Cartas div {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Cartas p{
+    color: blue;
+    font-size: 16px;
+}

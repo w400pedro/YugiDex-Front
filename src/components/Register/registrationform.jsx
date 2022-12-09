@@ -41,23 +41,22 @@ function RegistrationForm() {
         <div className="form">
             <div className="form-body">
                 <div className="username">
-                    <label className="form__label" for="Name">Name </label>
-                    <input className="form__input" type="text" value={Name} onChange = {(e) => handleInputChange(e)} id="Name" placeholder="Name"/>
+                    <label className="form__label" for="Name">Nome </label>
+                    <input className="form__input" type="text" value={Name} onChange = {(e) => handleInputChange(e)} id="Name" placeholder="Nome"/>
                 </div>
                 <div className="email">
                     <label className="form__label" for="email">Email </label>
                     <input  type="email" id="email" className="form__input" value={email} onChange = {(e) => handleInputChange(e)} placeholder="Email"/>
                 </div>
                 <div className="password">
-                    <label className="form__label" for="password">Password </label>
-                    <input className="form__input" type="password"  id="password" value={password} onChange = {(e) => handleInputChange(e)} placeholder="Password"/>
+                    <label className="form__label" for="password">Senha </label>
+                    <input className="form__input" type="password"  id="password" value={password} onChange = {(e) => handleInputChange(e)} placeholder="Senha"/>
                 </div>
             </div>
             <div class="footer">
-                <button onClick={()=>handleSubmit()} type="submit" class="btn">Register</button>
+                <button onClick={()=>handleSubmit()} type="submit" class="btn">Registrar</button>
             </div>
         </div>
-       
     )       
 }
 

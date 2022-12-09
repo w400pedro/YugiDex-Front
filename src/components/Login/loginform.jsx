@@ -47,7 +47,6 @@ function LoginForm() {
                 <button onClick={()=>handleSubmit()} type="submit" class="btn">Login</button>
             </div>
         </div>
-       
     )       
 }
 
